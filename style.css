@@ -1,0 +1,185 @@
+table,
+td {
+    border: 1px solid #333;
+    text-align: center;
+    font-size: 30px;
+    padding: 5px 11px;
+}
+
+
+
+td sub{
+    font-size: 15px;
+}
+
+.disap{
+    font-size: 15px;
+    position: relative;
+    left: 15px;
+}
+
+.b{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.b1{
+    background-color: white;
+    color: black;
+    border: 2px solid red;
+}
+
+.b1:hover{
+    background-color: red;
+    color: white;
+}
+
+.b2{
+    background-color: white; 
+    color: black; 
+    border: 2px solid #4CAF50;
+}
+
+.b2:hover{
+    background-color: #4CAF50;
+    color: white;
+}
+
+.b3{
+    background-color: white; 
+    color: black; 
+    border: 2px solid #123EED;
+}
+
+.b3:hover{
+    background-color: #123EED; 
+    color: white;
+}
+
+.b4{
+    background-color: white; 
+    color: black; 
+    border: 2px solid #F2BE0D;
+}
+
+.b4:hover{
+    background-color: #F2BE0D; 
+    color: white; 
+}
+
+.b5{
+    background-color: grey;
+}
+
+.b5:hover{
+    border: 2px solid grey;
+    color: grey;
+    background-color: white;
+}
+
+.divinfo{
+    font-family: cursive;
+    border: 3px solid #A485AD;
+    display: none;
+}
+
+.vide{
+    border: none;
+}
+
+.number{
+    border: none;
+    font-size: 12px;
+    padding: 1px 1px;
+    background-color: aqua;
+}
+
+.ma{
+    background-color: #729FCF;
+}
+
+.mat{
+    background-color: #FFBF00;
+}
+
+.h{
+    background-color: #81D41A;
+}
+
+.gn{
+    background-color: #FFFF38;
+}
+
+.m1{
+    background-color: #999999;
+}
+
+.m, .mt{
+    color: #313131;
+}
+
+.nm{
+    color: #456A0F;
+}
+
+.tempfus:hover, .tempvap:hover, .elec:hover, .rayon:hover, .energion:hover, .affelec:hover, .db:hover{
+    cursor: help;
+    text-decoration: underline;
+}
+
+.divexplain{
+    padding: 20px;
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+    display: none;
+}
+
+.closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+  
+.closebtn:hover {
+    color: black;
+}
+
+.laac{
+    font-size: 15px;
+}
+
+.infotr{
+    border: none;
+    font-size: 16px;
+}
+
+.imginfo{
+    border-color: #1c87c9;
+    border-style: solid;
+    border-width: 20px;
+    position: relative;
+    left: 100px;
+}
+
+.figcapt{
+    position: relative;
+    left: 100px;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
