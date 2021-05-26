@@ -3,7 +3,7 @@
     <head>
 	<meta charset="utf-8"/>        
 	<title>Élémentaire</title>
-    <meta name="description" content="Elementaire, tableau périodique des éléments interactif."/>
+    <meta name="description" content="Elementaire, tableau périodique interactif des éléments."/>
     <meta name="author" content="Augustin Schwerer"/>
     <meta name="keywords" content="tableau périodique des élément,classification périodique des éléments,tableau de Mendéléïev,tableau des éléments,classification de Mendéléïev,tableau des éléments interactif,tableau périodique des éléments interactif,éléments chimie"/>
     <link rel="icon" href="./images/favicon.ico" />
@@ -19,7 +19,7 @@
             }
         </script>
         <table>
-            <caption id="tabcap" style="font-family: cursive;">Élémentaire - Le tableau périodique des élements interactif</caption>
+            <caption id="tabcap" style="font-family: cursive;">Élémentaire - Le tableau périodique interactif des éléments</caption>
             <tbody>
                 <tr>
                     <td class="vide"></td>
@@ -203,9 +203,7 @@
                 </tr>
             </tbody>
         </table>
-        <p style="font-family: cursive;">Cliquer sur un élément pour afficher ses informations ci-dessous<br>Cliquer sur une propriété compliquée (exemple : Électronégativité) pour afficher sa définition</p>
-        <div><button class="b b1" id="masquer1">Masquer/Afficher les Numéros atomiques</button><button class="b b2" id="masquer2">Masquer/Afficher A et M</button><p style="font-family: cursive;">Sélectionner :<button class="b b3" id="bs">Bloc s</button><button class="b b3" id="bp">Bloc p</button><button class="b b3" id="bd">Bloc d</button><button class="b b3" id="bf">Bloc f</button><button class="b b4" id="bm">Métaux</button><button class="b b4" id="bnm">Non Métaux</button><button class="b b4" id="bmt">Métaux de transition</button><button class="b b4" id="bm1">Métalloides principaux</button><button class="b b4" id="btr">Terres rares</button><button class="b b5" id="bcancel">Annuler</button></p></div>
-        
+        <div><br></div>
         <div id="result1" class="divinfo"><span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span><p style="font-size: 35px;">Hydrogène</p><table class="infotr"><tbody>
             <tr><td class="infotr">Structure</td><td class="infotr"><img src="./images/info/structure.jpg" alt="img_structure"></td><td class="infotr">Noyau : 1 proton et 0 neutron<br/>Configuration électronique : 1s<sup>1</sup><br/>Bloc s</td><td class="infotr" rowspan="4"><figure><img class="imginfo" src="./images/elements/hydrogène_liquide.jpg" alt=""><figcaption class="figcapt">Hydrogène liquide</figcaption></figure></td></tr>
             <tr><td class="infotr">Propriétés physiques</td><td class="infotr"><img src="./images/info/proprietes_physiques.jpg" alt="img_propriétés_physiques"></td><td class="infotr"><span class="tempfus">Température de fusion : -259,1°C</span><br/><span class="tempvap">Température de vaporisation : -252,9°C</span><br/><span class="rayon">Rayon atomique (calculé): 53 pm</span><br/>Groupe : Non Métaux<br/>Noyau stable<br/><span class="energion">Énergie d’ionisation (1er) : 13,598 eV</span><br/><span class="affelec">Affinité électronique : O,755 eV</span><br/><span class="db">Dureté Brinell : N/A</span></td></tr>
@@ -1031,8 +1029,6 @@
             <tr><td class="infotr">Propriétés chimiques</td><td class="infotr"><img src="./images/info/proprietes_chimiques.JPG" alt="img_propriétés_chimiques"></td><td class="infotr"><span class="elec">Électronégativité : N/A</span></td></tr>
             <tr><td class="infotr">Découverte</td><td class="infotr"><img src="./images/info/decouverte.JPG" alt="img_découverte"></td><td class="infotr">Année de découverte : 2006</td></tr></tbody></table>
         </div>
-
-
         <div><br></div>
         <div id="divtempfus" class="divexplain">La température de fusion est la température à partir de laquelle l’élément passe de l’état solide à l’état liquide<span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span></div>
         <div id="divtempvap" class="divexplain">La température de vaporisation est la température à partir de laquelle l’élément passe de l’état liquide à l’état gazeux<span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span></div>
@@ -1041,8 +1037,12 @@
         <div id="divenergion" class="divexplain">L’énergie d'ionisation d'un atome ou d'une molécule est l'énergie nécessaire pour lui arracher un électron. Ici la 1ère énergie d'ionisation est l'énergie requise pour arracher le 1er électron. Ce concept est l'inverse de celui d'affinité électronique<span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span></div>
         <div id="divaffelec" class="divexplain">L’affinité électronique est la quantité d’énergie dégagée après la capture d’un électron par un atome en phase gazeuse. Plus l'affinité électronique est grande plus la capture d'un électron par l'atome dégage de l'énergie et plus cette capture est stable. Si l’affinité électronique est négative, cela veut dire qu'il faudra fournir de l'énergie à l'atome pour lui attacher un électron<span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span></div>
         <div id="divdb" class="divexplain">La dureté Brinell repose sur l’échelle de Brinell qui mesure la dureté de matériaux, par la compression d'une bille, généralement en acier, sur le matériau en question<span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span></div>
+
+        <p style="font-family: cursive;">Cliquer sur un élément pour afficher ses informations ci-dessous<br>Cliquer sur une propriété compliquée (exemple : Électronégativité) pour afficher sa définition</p>
+        <div><button class="b b1" id="masquer1">Masquer/Afficher les Numéros atomiques</button><button class="b b2" id="masquer2">Masquer/Afficher A et M</button><p style="font-family: cursive;">Sélectionner :<button class="b b3" id="bs">Bloc s</button><button class="b b3" id="bp">Bloc p</button><button class="b b3" id="bd">Bloc d</button><button class="b b3" id="bf">Bloc f</button><button class="b b4" id="bm">Métaux</button><button class="b b4" id="bnm">Non Métaux</button><button class="b b4" id="bmt">Métaux de transition</button><button class="b b4" id="bm1">Métalloides principaux</button><button class="b b4" id="btr">Terres rares</button><button class="b b5" id="bcancel">Annuler</button></p></div>
         
-        <div class="divbottom">Élémentaire 1.1.0&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;&nbsp;Projet réalisé par Augustin Schwerer sous <a class="linkbottom" href="https://github.com/t-elementaire/t-elementaire.github.io/blob/main/LICENSE" target="_blank">license Apache 2.0</a> et validé par M. Marcelin, professeur de Physique-Chimie&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;&nbsp;<a class="linkbottom" href="https://github.com/t-elementaire/t-elementaire.github.io/" target="_blank">Projet GitHub</a>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;&nbsp;<a class="linkbottom" href="https://github.com/t-elementaire/t-elementaire.github.io/releases/tag/1.1.0" target="_blank">Télécharger Elementaire</a>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;&nbsp;Dernière mise à jour : 25/05/2021</div>
+        <div><br></div>
+        <div class="divbottom">Élémentaire 1.1.0&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;&nbsp;Projet réalisé par Augustin Schwerer sous <a class="linkbottom" href="https://github.com/t-elementaire/t-elementaire.github.io/blob/main/LICENSE" target="_blank">license Apache 2.0</a> et validé par M. Marcelin, professeur de Physique-Chimie&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;&nbsp;<a class="linkbottom" href="https://github.com/t-elementaire/t-elementaire.github.io/" target="_blank">Projet GitHub</a>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;&nbsp;<a class="linkbottom" href="https://github.com/t-elementaire/t-elementaire.github.io/releases/tag/1.1.0" target="_blank">Télécharger Elementaire</a>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;&nbsp;Dernière mise à jour : 26/05/2021</div>
         <script src="script.js"></script>
     </body>
 </html>
