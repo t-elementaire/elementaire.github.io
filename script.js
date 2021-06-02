@@ -48,6 +48,7 @@ bs.addEventListener("click", () => {
     var td = document.getElementsByTagName("td");
     var vide = document.getElementsByClassName("vide");
     var number = document.getElementsByClassName("number");
+    var infotr = document.getElementsByClassName("infotr");
     var e;
     var ee;
     var eee;
@@ -64,6 +65,9 @@ bs.addEventListener("click", () => {
     for (eeee = 0; eeee < number.length; eeee++) {
         number[eeee].style.visibility = "visible";
     }
+    for (u = 0; u < infotr.length; u++) {
+        infotr[u].style.visibility = "visible";
+    }
     tabcap.innerText = "Élémentaire - Orbitale s";
 })
 
@@ -72,6 +76,7 @@ bp.addEventListener("click", () => {
     var td = document.getElementsByTagName("td");
     var vide = document.getElementsByClassName("vide");
     var number = document.getElementsByClassName("number");
+    var infotr = document.getElementsByClassName("infotr");
     var e;
     var ee;
     var eee;
@@ -88,6 +93,9 @@ bp.addEventListener("click", () => {
     for (eeee = 0; eeee < number.length; eeee++) {
         number[eeee].style.visibility = "visible";
     }
+    for (u = 0; u < infotr.length; u++) {
+        infotr[u].style.visibility = "visible";
+    }
     tabcap.innerText = "Élémentaire - Orbitale p";
 })
 
@@ -96,6 +104,7 @@ bd.addEventListener("click", () => {
     var td = document.getElementsByTagName("td");
     var vide = document.getElementsByClassName("vide");
     var number = document.getElementsByClassName("number");
+    var infotr = document.getElementsByClassName("infotr");
     var e;
     var ee;
     var eee;
@@ -112,6 +121,9 @@ bd.addEventListener("click", () => {
     for (eeee = 0; eeee < number.length; eeee++) {
         number[eeee].style.visibility = "visible";
     }
+    for (u = 0; u < infotr.length; u++) {
+        infotr[u].style.visibility = "visible";
+    }
     tabcap.innerText = "Élémentaire - Orbitale d";
 })
 
@@ -121,11 +133,13 @@ bf.addEventListener("click", () => {
     var vide = document.getElementsByClassName("vide");
     var number = document.getElementsByClassName("number");
     var laac = document.getElementsByClassName("laac");
+    var infotr = document.getElementsByClassName("infotr");
     var e;
     var ee;
     var eee;
     var eeee;
     var eeeee;
+    var u;
     for (e = 0; e < td.length; e++) {
         td[e].style.visibility = "hidden";
     }
@@ -138,6 +152,9 @@ bf.addEventListener("click", () => {
     for (eeee = 0; eeee < number.length; eeee++) {
         number[eeee].style.visibility = "visible";
     }
+    for (u = 0; u < infotr.length; u++) {
+        infotr[u].style.visibility = "visible";
+    }
     for (eeeee = 0; eeeee < laac.length; eeeee++) {
         laac[eeeee].style.visibility = "visible";
     }
@@ -149,10 +166,15 @@ bm.addEventListener("click", () => {
     var td = document.getElementsByTagName("td");
     var vide = document.getElementsByClassName("vide");
     var number = document.getElementsByClassName("number");
+    var infotr = document.getElementsByClassName("infotr");
+    var mt = document.getElementsByClassName("mt");
+    var laac = document.getElementsByClassName("laac");
     var e;
     var ee;
     var eee;
     var eeee;
+    var e2;
+    var ee2;
     for (e = 0; e < td.length; e++) {
         td[e].style.visibility = "hidden";
     }
@@ -165,6 +187,15 @@ bm.addEventListener("click", () => {
     for (eeee = 0; eeee < number.length; eeee++) {
         number[eeee].style.visibility = "visible";
     }
+    for (u = 0; u < infotr.length; u++) {
+        infotr[u].style.visibility = "visible";
+    }
+    for (e2 = 0; e2 < mt.length; e2++) {
+        mt[e2].style.visibility = "visible";
+    }
+    for (ee2 = 0; ee2 < laac.length; ee2++) {
+        laac[ee2].style.visibility = "visible";
+    }
     tabcap.innerText = "Élémentaire - Métaux";
 })
 
@@ -173,6 +204,7 @@ bnm.addEventListener("click", () => {
     var td = document.getElementsByTagName("td");
     var vide = document.getElementsByClassName("vide");
     var number = document.getElementsByClassName("number");
+    var infotr = document.getElementsByClassName("infotr");
     var e;
     var ee;
     var eee;
@@ -189,6 +221,9 @@ bnm.addEventListener("click", () => {
     for (eeee = 0; eeee < number.length; eeee++) {
         number[eeee].style.visibility = "visible";
     }
+    for (u = 0; u < infotr.length; u++) {
+        infotr[u].style.visibility = "visible";
+    }
     tabcap.innerText = "Élémentaire - Non métaux";
 })
 
@@ -197,6 +232,7 @@ bmt.addEventListener("click", () => {
     var td = document.getElementsByTagName("td");
     var vide = document.getElementsByClassName("vide");
     var number = document.getElementsByClassName("number");
+    var infotr = document.getElementsByClassName("infotr");
     var laac = document.getElementsByClassName("laac");
     var e;
     var ee;
@@ -215,6 +251,9 @@ bmt.addEventListener("click", () => {
     for (eeee = 0; eeee < number.length; eeee++) {
         number[eeee].style.visibility = "visible";
     }
+    for (u = 0; u < infotr.length; u++) {
+        infotr[u].style.visibility = "visible";
+    }
     for (eeeee = 0; eeeee < laac.length; eeeee++) {
         laac[eeeee].style.visibility = "visible";
     }
@@ -226,6 +265,7 @@ bm1.addEventListener("click", () => {
     var td = document.getElementsByTagName("td");
     var vide = document.getElementsByClassName("vide");
     var number = document.getElementsByClassName("number");
+    var infotr = document.getElementsByClassName("infotr");
     var e;
     var ee;
     var eee;
@@ -242,6 +282,9 @@ bm1.addEventListener("click", () => {
     for (eeee = 0; eeee < number.length; eeee++) {
         number[eeee].style.visibility = "visible";
     }
+    for (u = 0; u < infotr.length; u++) {
+        infotr[u].style.visibility = "visible";
+    }
     tabcap.innerText = "Élémentaire - Métalloïdes principaux";
 })
 
@@ -250,6 +293,7 @@ btr.addEventListener("click", () => {
     var td = document.getElementsByTagName("td");
     var vide = document.getElementsByClassName("vide");
     var number = document.getElementsByClassName("number");
+    var infotr = document.getElementsByClassName("infotr");
     var lanthanides = document.getElementById("lanthanides");
     var lanthanides2 = document.getElementById("lanthanides2");
     var e;
@@ -268,6 +312,9 @@ btr.addEventListener("click", () => {
     for (eeee = 0; eeee < number.length; eeee++) {
         number[eeee].style.visibility = "visible";
     }
+    for (u = 0; u < infotr.length; u++) {
+        infotr[u].style.visibility = "visible";
+    }
     lanthanides.style.visibility = "visible";
     lanthanides2.style.visibility = "visible";
     tabcap.innerText = "Élémentaire - Terres rares";
@@ -277,6 +324,7 @@ b5.addEventListener("click", () => {
     var td = document.getElementsByTagName("td");
     var vide = document.getElementsByClassName("vide");
     var number = document.getElementsByClassName("number");
+    var infotr = document.getElementsByClassName("infotr");
     var laac = document.getElementsByClassName("laac");
     var e;
     var eee;
@@ -291,10 +339,13 @@ b5.addEventListener("click", () => {
     for (eeee = 0; eeee < number.length; eeee++) {
         number[eeee].style.visibility = "visible";
     }
+    for (u = 0; u < infotr.length; u++) {
+        infotr[u].style.visibility = "visible";
+    }
     for (eeeee = 0; eeeee < laac.length; eeeee++) {
         laac[eeeee].style.visibility = "visible";
     }
-    tabcap.innerText = "Élémentaire - Le tableau périodique des éléments interactif";
+    tabcap.innerText = "Élémentaire - Le tableau périodique interactif des éléments";
 })
 
 
