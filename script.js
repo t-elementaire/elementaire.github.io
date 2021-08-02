@@ -13,6 +13,7 @@ let bnm = document.getElementById("bnm");
 let bmt = document.getElementById("bmt");
 let bm1 = document.getElementById("bm1");
 let btr = document.getElementById("btr");
+let brad = document.getElementById("brad");
 
 let b5 = document.getElementById("bcancel");
 
@@ -320,6 +321,56 @@ btr.addEventListener("click", () => {
     tabcap.innerText = "Élémentaire - Terres rares";
 })
 
+brad.addEventListener("click", () => {
+    var lradid = document.getElementById("lradid");
+    
+    var rad1 = document.getElementsByClassName("rad1");
+    var rad2 = document.getElementsByClassName("rad2");
+    var rad3 = document.getElementsByClassName("rad3");
+
+    var dma = document.getElementsByClassName("ma");
+    var dmat = document.getElementsByClassName("mat");
+    var dh = document.getElementsByClassName("h");
+    var dgn = document.getElementsByClassName("gn");
+    var dm1 = document.getElementsByClassName("m1");
+    var d;
+    var dd;
+    var ddd;
+    var dddd;
+    var ddddd;
+    var u;
+    var uu;
+    var uuu;
+    for (d = 0; d < dma.length; d++) {
+        dma[d].style.backgroundColor = "transparent";
+    }
+    for (dd = 0; dd < dmat.length; dd++) {
+        dmat[dd].style.backgroundColor = "transparent";
+    }
+    for (ddd = 0; ddd < dh.length; ddd++) {
+        dh[ddd].style.backgroundColor = "transparent";
+    }
+    for (dddd = 0; dddd < dgn.length; dddd++) {
+        dgn[dddd].style.backgroundColor = "transparent";
+    }
+    for (ddddd = 0; ddddd < dm1.length; ddddd++) {
+        dm1[ddddd].style.backgroundColor = "transparent";
+    }
+
+    for (u = 0; u < rad1.length; u++) {
+        rad1[u].style.backgroundColor = "#FF8000";
+    }
+    for (uu = 0; uu < rad2.length; uu++) {
+        rad2[uu].style.backgroundColor = "#FFFF00";
+    }
+    for (uuu = 0; uuu < rad3.length; uuu++) {
+        rad3[uuu].style.backgroundColor = "#FF0000";
+    }
+    tabcap.innerText = "Élémentaire - Classement selon la stabilité du noyau";
+
+    lradid.style.display = "inline-block"
+})
+
 b5.addEventListener("click", () => {
     var td = document.getElementsByTagName("td");
     var vide = document.getElementsByClassName("vide");
@@ -345,7 +396,53 @@ b5.addEventListener("click", () => {
     for (eeeee = 0; eeeee < laac.length; eeeee++) {
         laac[eeeee].style.visibility = "visible";
     }
+
+    var rad1 = document.getElementsByClassName("rad1");
+    var rad2 = document.getElementsByClassName("rad2");
+    var rad3 = document.getElementsByClassName("rad3");
+    var u1;
+    var uu;
+    var uuu;
+    for (u1 = 0; u1 < rad1.length; u1++) {
+        rad1[u1].style.backgroundColor = "transparent";
+    }
+    for (uu = 0; uu < rad2.length; uu++) {
+        rad2[uu].style.backgroundColor = "transparent";
+    }
+    for (uuu = 0; uuu < rad3.length; uuu++) {
+        rad3[uuu].style.backgroundColor = "transparent";
+    }
+
+    
+    var dma = document.getElementsByClassName("ma");
+    var dmat = document.getElementsByClassName("mat");
+    var dh = document.getElementsByClassName("h");
+    var dgn = document.getElementsByClassName("gn");
+    var dm1 = document.getElementsByClassName("m1");
+    var d;
+    var dd;
+    var ddd;
+    var dddd;
+    var ddddd;
+    for (d = 0; d < dma.length; d++) {
+        dma[d].style.backgroundColor = "#729FCF";
+    }
+    for (dd = 0; dd < dmat.length; dd++) {
+        dmat[dd].style.backgroundColor = "#FFBF00";
+    }
+    for (ddd = 0; ddd < dh.length; ddd++) {
+        dh[ddd].style.backgroundColor = "#81D41A";
+    }
+    for (dddd = 0; dddd < dgn.length; dddd++) {
+        dgn[dddd].style.backgroundColor = "#FFFF38";
+    }
+    for (ddddd = 0; ddddd < dm1.length; ddddd++) {
+        dm1[ddddd].style.backgroundColor = "#999999";
+    }
     tabcap.innerText = "Élémentaire - Le tableau périodique interactif des éléments";
+
+    var lradid = document.getElementById("lradid");
+    lradid.style.display = "none"
 })
 
 

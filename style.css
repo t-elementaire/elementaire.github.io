@@ -37,7 +37,7 @@ td sub{
 .b1{
     background-color: white;
     color: black;
-    border: 2px solid red;
+    border: 3px solid red;
 }
 
 .b1:hover{
@@ -48,7 +48,7 @@ td sub{
 .b2{
     background-color: white; 
     color: black; 
-    border: 2px solid #4CAF50;
+    border: 3px solid #4CAF50;
 }
 
 .b2:hover{
@@ -59,7 +59,7 @@ td sub{
 .b3{
     background-color: white; 
     color: black; 
-    border: 2px solid #123EED;
+    border: 3px solid #123EED;
 }
 
 .b3:hover{
@@ -70,7 +70,7 @@ td sub{
 .b4{
     background-color: white; 
     color: black; 
-    border: 2px solid #F2BE0D;
+    border: 3px solid #F2BE0D;
 }
 
 .b4:hover{
@@ -83,9 +83,20 @@ td sub{
 }
 
 .b5:hover{
-    border: 2px solid grey;
+    border: 3px solid grey;
     color: grey;
     background-color: white;
+}
+
+.b6{
+    background-color: white; 
+    color: black; 
+    border: 3px solid purple;
+}
+
+.b6:hover{
+    background-color: purple; 
+    color: white; 
 }
 
 .divinfo{
@@ -200,4 +211,11 @@ td sub{
 .linkbottom:hover{
     color: lime;
     transition-duration: 0.4s;
+}
+
+.lrad{
+    display: none;
+    font-family: cursive;
+    border: 4px solid purple;
+    padding: 10px 20px;
 }
