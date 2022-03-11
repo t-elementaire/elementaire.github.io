@@ -1,5 +1,5 @@
 # elementaire.github.io
-version 1.1.1
+version 1.2.0
 
 Il s’agit d’un tableau périodique des éléments interactif entièrement fait en HTML-CSS-JS.
 
