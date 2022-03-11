@@ -225,4 +225,18 @@ td sub{
   font-family: cursive;
   font-size: 30px;
   border: 10px solid red;
+  padding: 7px 10px;
+}
+
+.enadd{
+    font-family: cursive;
+    font-size: 19px;
+    background-color: gold;
+    border-radius: 10px;
+    padding: 10px 10px;
+}
+
+.linken:hover{
+    color: lime;
+    transition-duration: 0.4s;
 }
